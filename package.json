@@ -1,9 +1,9 @@
 {
-  "name": "scaffold",
+  "name": "pet-heroes",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://stephhoel.github.io/scaffold/",
+  "homepage": "https://stephhoel.github.io/pet-heroes/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -51,7 +51,7 @@
 
     var host = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '')
 
-    var site = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/scaffold/?/'
+    var site = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/pet-heroes/?/'
 
     var path = l.pathname.slice(1).split('/').slice(1).join('/').replace(/&/g, '~and~') + (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') + l.hash
 
